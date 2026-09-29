@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil - Alif Akbar Ramadhan</title>
+  <link rel="stylesheet" href="profil.css">
+</head>
+<body>
+
+  <header>
+    <h1>Alif Akbar Ramadhan</h1>
+    <p>Mahasiswa &mdash; Malang</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#jadwal">Jadwal Kuliah</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+
+      <img
+        src="foto_ham_hitam.jpg"
+        alt="Foto diri Alif Akbar Ramadhan sedang tersenyum menghadap kamera dengan latar belakang kampus"
+        class="profile-photo"
+      >
+
+      <p>
+        Halo, perkenalkan nama saya <strong>Alif Akbar Ramadhan</strong>. Saya seorang mahasiswa
+        yang sedang belajar mengembangkan halaman web menggunakan HTML5. Saya senang
+        mempelajari hal baru, terutama yang berkaitan dengan teknologi dan desain.
+        Saya asli Malang dari jurusan Rekayasa Perangkat Lunak dan saya ingin lulus secepatnya
+        dan kerja di luar negeri. Saya juga memiliki hobi mendengarkan musik dan bermain game.
+        Saya berharap dapat terus mengembangkan keterampilan saya dalam bidang web development
+        dan teknologi.
+      </p>
+
+      <h3>Hobi Saya</h3>
+      <ul>
+        <li>Mendengarkan musik</li>
+        <li>Bermain game</li>
+      </ul>
+    </section>
+
+    <section id="jadwal">
+      <h2>Jadwal Kuliah</h2>
+
+      <button id="toggleJadwal" class="toggle-btn" type="button">Sembunyikan Jadwal</button>
+
+      <table id="tabelJadwal">
+        <thead>
+          <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Ruang</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Senin</td>
+            <td>07.30 - 10.30</td>
+            <td>Penjaminan Mutu Perangkat Lunak</td>
+            <td>B-CLS-101</td>
+          </tr>
+          <tr>
+            <td>Senin</td>
+            <td>10.30 - 13.30</td>
+            <td>Manajemen Proyek</td>
+            <td>KTT1.17</td>
+          </tr>
+          <tr>
+            <td>Senin</td>
+            <td>15.30 - 18.30</td>
+            <td>Perancangan dan Pemrograman Web</td>
+            <td>Sweng Lab.</td>
+          </tr>
+          <tr>
+            <td>Selasa</td>
+            <td>10.30 - 13.30</td>
+            <td>Pemrograman Perangkat Bergerak</td>
+            <td>Datai Lab.</td>
+          </tr>
+          <tr>
+            <td>Selasa</td>
+            <td>14.30 - 17.30</td>
+            <td>Perancangan dan Pemrograman Web</td>
+            <td>KTT1.17</td>
+          </tr>
+          <tr>
+            <td>Rabu</td>
+            <td>08.30 - 10.30</td>
+            <td>Wawasan Global TIK</td>
+            <td>KTT1.16</td>
+          </tr>
+          <tr>
+            <td>Rabu</td>
+            <td>15.30 - 17.30</td>
+            <td>Kewirausahaan</td>
+            <td>KTT A-1.06</td>
+          </tr>
+          <tr>
+            <td>Kamis</td>
+            <td>07.30 - 10.30</td>
+            <td>Pengalaman Pengguna (UX)</td>
+            <td>KTT1.17</td>
+          </tr>
+          <tr>
+            <td>Kamis</td>
+            <td>12.30 - 15.30</td>
+            <td>Pemrograman Perangkat Bergerak</td>
+            <td>KTT1.09</td>
+          </tr>
+          <tr>
+            <td>Kamis</td>
+            <td>15.30 - 17.30</td>
+            <td>Teknologi Perangkat Lunak untuk Masyarakat</td>
+            <td>KTT1.20</td>
+          </tr>
+          <tr>
+            <td>Jumat</td>
+            <td>09.30 - 11.30</td>
+            <td>Kewarganegaraan</td>
+            <td>KTT1.08</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="sosial">
+      <h2>Temukan Saya di</h2>
+      <p class="social-links">
+        <a href="https://www.linkedin.com/in/alif-akbar-ramadhan-a64667264/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/AlifAkbarRamadhan" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak Saya</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan di sini..." required></textarea>
+
+        <p id="formError" class="form-error"></p>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alif Akbar Ramadhan. Dibuat untuk latihan HTML5, CSS3, JavaScript &amp; jQuery.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
